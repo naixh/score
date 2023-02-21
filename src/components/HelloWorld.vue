@@ -1,5 +1,5 @@
 <template>
-    <div class="timer font-bold text-red-600 "  style="font-size: 13rem;" >{{ time }}</div>
+    <div class="timer font-bold text-red-600 "  style="font-size: 14rem;" >{{ time }}</div>
 </template>
 <script >
 export default {

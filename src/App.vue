@@ -27,7 +27,7 @@
                 <div class="flex bg-red-300 flex-row h-full">
                     <div class="grow w-7/12 bg-gray-900  grid  border-r-8">
                         <div class="align-middle text-center">
-                            <p class=" text-8xl align-top text-white"> Time </p>
+                            <p class=" text-8xl align-top text-red-600"> Time </p>
                             <br>
                             <div id="counter" v-cloak>
                                 <div v-if="time!==0">
@@ -40,7 +40,7 @@
                                 </div>
                                 <form v-else >
                                     <label for="min">Minutes<br />
-                                        <input type="number" class="bg-transparent text-4xl font-bold  text-center" v-model="min" name="time_m" id="min" min="0" max="59">
+                                        <input type="number" class="bg-transparent text-4xl font-bold  text-center text-red-600" v-model="min" name="time_m" id="min" min="0" max="59">
                                     </label>
                                     <br>
                                     <button type="button" @click="sendTime">Set time</button>
@@ -56,8 +56,8 @@
 
                             </div>
                             <div class="grow-0 w-1/2 h-full bg-gray-900 ">
-                                <div class="bg-gray-900 h-full text-center grid place-content-evenly">
-                                    <span class="text-6xl font-bold text-white whitespace-normal  " >Period Score</span>
+                                <div class="bg-gray-900 h-full text-center grid p-20">
+                                    <span class="text-8xl font-bold text-white whitespace-normal  " >Period Score</span>
                                 </div>
                             </div>
                             <div class="grow-0 w-1/3  bg-gray-900">
@@ -75,12 +75,14 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 
+        </div>
+
+    </div>
 </template>
 <script>
 
