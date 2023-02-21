@@ -12,13 +12,13 @@
             <div class="grow w-1/2 h-full bg-blue-800   text-center grid place-content-evenly ">
                <div class="align-middle items-center text-center">
                   <textarea spellcheck="false" class=" w-full text-8xl align-bottom font-extrabold text-white bg-transparent text-center" >TEAM</textarea>
-                  <input class="w-full align-middle text-white bg-transparent text-center font-extrabold " style="font-size: 13.75rem;" type="number">
+                  <input class="w-full align-middle text-white bg-transparent text-center font-extrabold " style="font-size: 12.75rem;" type="number">
                </div>
             </div>
             <div class="grow-0 w-1/2  bg-blue-800 text-center grid place-content-evenly">
                <div class="align-middle items-center text-center">
                    <textarea spellcheck="false" class=" w-full text-8xl align-bottom font-extrabold text-white bg-transparent text-center" >TEAM</textarea>
-                   <input class="w-full align-middle text-white bg-transparent text-center font-extrabold " style="font-size: 13.75rem;" type="number">
+                   <input class="w-full align-middle text-white bg-transparent text-center font-extrabold " style="font-size: 12.75rem;" type="number">
                </div>
             </div>
          </div>
@@ -26,8 +26,7 @@
       <div class="bg-red-800 h-1/2">
          <div class="flex bg-red-300 flex-row h-full">
             <div class="grow w-7/12 bg-gray-900  grid  border-r-8">
-               <div class="align-middle text-center py-20">
-
+               <div class="align-middle text-center">
                   <p class=" text-8xl align-top text-white"> Running Time </p>
                   <br>
                    <div id="counter" v-cloak>
@@ -53,20 +52,20 @@
             <div class="grow-0 w-full bg-gray-900">
                <div class="grow w-full h-4/6 bg-gray-200 flex">
                   <div class="grow w-1/3 h-full bg-gray-900 p-5  ">
-                     <div class="bg-yellow-300 h-full rounded-lg text-center grid place-content-evenly">
-                        <input type="number" class="bg-yellow-300 rounded-lg  text-9xl font-bold w-full text-center" style="font-size: 14rem;"  >
-                     </div>
+
+                        <input type="number" class="bg-yellow-300 rounded-lg  text-9xl font-bold w-full text-center" style="font-size: 12rem;"  >
+
                   </div>
                   <div class="grow-0 w-1/2 h-full bg-gray-900 ">
                      <div class="bg-gray-900 h-full text-center grid place-content-evenly">
-                        <span class="text-9xl font-bold text-white whitespace-normal  " >Period Score</span>
+                        <span class="text-6xl font-bold text-white whitespace-normal  " >Period Score</span>
                      </div>
                   </div>
                   <div class="grow-0 w-1/3  bg-gray-900">
                      <div class="grow h-full bg-gray-900 p-5  ">
-                        <div class="bg-yellow-300 h-full rounded-lg text-center grid place-content-evenly">
+
                             <input type="number" class="bg-yellow-300 rounded-lg  text-9xl font-bold w-full text-center" style="font-size: 14rem;"  >
-                        </div>
+             
                      </div>
                   </div>
                </div>
