@@ -82,7 +82,7 @@
          </div>
       </div>
    </div>
-git</div>
+</div>
 
 </template>
 <script>
