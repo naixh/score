@@ -82,10 +82,7 @@
          </div>
       </div>
    </div>
-   <div class="bg-blue-200 h-20 tes">
-    <marquee ><input type="text" class="bg-transparent text-6xl font-bold w-full text-center" ></marquee>
-   </div>
-</div>
+git</div>
 
 </template>
 <script>
