@@ -148,12 +148,12 @@ export default {
         if (e.key == 'ArrowLeft') {
             e.preventDefault()
              this.p_score_in++
-             this.f_score_in++
+
         }
         if (e.key == 'ArrowRight') {
             e.preventDefault()
              this.p_score_out++
-             this.f_score_out ++
+
         }
 
         if (e.key == 'ArrowUp') {
