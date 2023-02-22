@@ -159,12 +159,12 @@ export default {
         if (e.key == 'ArrowUp') {
             e.preventDefault()
              this.p_score_in--
-             this.f_score_in--
+      
         }
         if (e.key == 'ArrowDown') {
             e.preventDefault()
              this.p_score_out--
-             this.f_score_out--
+
         }
 
         if (e.key == 'Alt') {
